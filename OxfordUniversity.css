@@ -1,0 +1,711 @@
+*
+{
+    padding: 0px;
+   
+}
+
+.header
+{
+    background-image: url("collegeph.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+}
+.content
+{
+    background-color: rgba(8, 0, 0, 0.5);
+    height: 70vh;
+    width: 250px;
+    line-height: 50px;
+    position: absolute;
+   left: -400px;
+    box-shadow: 0px 0px 10px  black;
+}
+a{
+    left: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    background-color: none;
+    height: 100px;
+    margin-left: 30px;
+    position: absolute;
+    top: 90px;
+
+}
+.content li:hover{
+box-shadow: 0px 0px 4px white;
+
+}
+
+.content .material i {
+    color:navy;
+    font-size: 25px;  
+    position: relative;
+    left: 20px;
+    
+}
+
+.content .material a {
+    color: white;
+    font-size: 25px; 
+    position: relative;
+    left: 25px; 
+
+}
+.menu i {
+    font-size: 30px;
+}
+.menu i:hover{
+    font-size: 40px;
+}
+.social_contact ul {
+    position: absolute;
+    top: 350px;
+    left: 70px;
+}
+.social_contact ul i {
+   font-size: 20px;
+   
+}
+.social_contact ul i:hover{
+    font-size: 40px;
+    color: red;
+    opacity: 0.7;
+}
+#check
+{
+    display: none;
+}
+#check:checked ~.content{
+    left: 0;
+}
+.sidebar_head 
+{
+
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+.sidebar_head a 
+{
+    color: gold;
+}
+.crossbutton
+{
+    display: inline-block;
+    position: relative;
+    left: 40px;
+}
+
+
+/**********LOGO SECTION**********/
+#logo {
+	height: 65px;
+    width: 100px;
+}
+
+/**********MENU SECTION**********/
+nav {
+	float: right;
+	padding: 25px 0px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 2px 10px;
+	font-weight: 500;
+}
+
+.header h1{
+    position: absolute;
+   left: 35%;
+   top: 100px;
+}
+.About
+{
+    height: 500px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.804);
+    display: flex;
+  justify-content:flex-start;
+  flex-direction: row;
+  align-items: center;
+  opacity: 1;
+  box-shadow: 0px 0px 40px white;  
+
+
+}
+
+#image
+{
+    height: 350px;
+    width: 350px;
+    box-shadow: 0px 0px 30px white;  
+    border-radius: 50%;
+    border: 1px solid black;
+    transition-duration: 1s;
+    background-image: url("oxfordph.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-left: 20px;
+    background-color:transparent;
+   
+}
+#Phrase
+{
+    background-color:transparent;
+    height: 400px;
+    width: 800px;
+    margin-left: 50px;
+    color: white;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.event{
+    height: 650px;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -37px;
+}
+#event0{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+#event1
+{
+    height: 350px;
+    width: 350px;
+    background-color:none;
+    background-image: url("Conservation\ tree\ planting.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: black;
+    border: 10px;
+    box-shadow: 0px 0px 10px black;
+   
+}
+
+#event2
+{
+    height: 350px;
+    width: 350px;
+    background-color:none;
+    background-image: url("Reasearch.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: black;
+    border: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#event3
+{
+    height: 350px;
+    width: 350px;
+    background-color: none;
+    background-image: url("Quantumcomputing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: black;
+    border: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#E
+{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 40px;
+    left: 0px;
+    color:black;
+}
+#event1:hover
+{
+    box-shadow: 0px 0px 20px white;
+}
+
+#event2:hover
+{
+    box-shadow: 0px 0px 20px white;
+}
+#event3:hover
+{
+    box-shadow: 0px 0px 10px white;
+}
+#con1
+{
+  margin-top: 10px;
+  margin-left: 58px;
+  color: black;
+}
+
+#con2
+{
+  margin-top: 10px;
+  margin-left: 20px;
+  color: black;
+}
+
+#con3
+{
+  margin-top: 10px;
+  margin-left: 50px;
+  color: black;
+}
+
+.discover{
+   
+    height: 450px;
+    width:100%;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.discoversection
+{
+    height: 400px;
+    width: 300px;
+}
+
+.img1
+{
+    height: 200px;
+    width: 300px;
+    background-image: url("img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2
+{
+    height: 200px;
+    width: 300px;
+    background-image: url("img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img3
+{
+    height: 200px;
+    width: 300px;
+    background-image: url("img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img4
+{
+    height: 200px;
+    width: 300px;
+    background-image: url(img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#box1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: black;
+    font-family:'PT Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#span
+{
+   margin-top : -4px;
+   font-size: 20px;
+   color: black;
+}
+
+.discoversection:hover
+{
+    box-shadow: 0px 0px 5px black;
+
+}
+.discoversection #box1:hover{
+    color: red;
+}
+
+
+#dc
+{
+     background-color: rgb(206, 206, 206);
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+     height: 50px; 
+     margin-top: -40px;
+}
+
+#dis
+{
+    margin-left: 10px;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.img1:hover{
+opacity: 0.6;
+}
+
+.img2:hover{
+opacity: 0.6;
+}
+
+.img3:hover{
+opacity: 0.6;
+}
+
+.img4:hover{
+opacity: 0.6;
+}
+
+
+.studysection
+{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(213, 213, 213);
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.contentbox
+{
+height: 300px;
+width: 300px;
+margin-top: 0px;
+background-color:#002147;
+}
+
+.image1
+{
+    height:230px;
+    width: 300px;
+    background-image: url("image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image2
+{
+    height:230px;
+    width: 300px;
+    background-image: url("image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image3
+{
+    height:230px;
+    width: 300px;
+    background-image: url("image3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image4
+{
+    height:230px;
+    width: 300px;
+    background-image: url("image4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ug
+{
+    height: 70px;
+    width: fit-content;
+    text-align: center;
+    background-color:#F3F1ECE6;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+h2{
+    margin-right: 0px;
+    padding-right: 0px;
+    font-size: 23px;
+    color: black;
+}
+.svg
+{
+    margin-left: -85px;
+    margin-right: -85px;
+    margin-top: -10px;
+}
+.image1:hover{
+    opacity: 0.7;
+}
+.image2:hover{
+    opacity: 0.7;
+}
+.image3:hover{
+    opacity: 0.7;
+}
+.image4:hover{
+    opacity: 0.7;
+}
+.contentbox:hover{
+    box-shadow: 0px 0px 3px black;
+}
+.contentbox .ug #h2:hover{
+    color: red;
+}
+
+.list
+{
+    height: 600px;
+    width: 100%;
+    background-color: #002147;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+
+.listsection
+{
+    height: 500px;
+    width: 400px;
+    margin-left: 12px;
+}
+
+.listheading
+{
+    color: white;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+li{
+    color:white;
+    font-size:15px;
+    padding-left: 20px;
+    list-style-type: none;
+    line-height: 32px;
+}
+
+.social_media{
+    height: 90px;
+    width: 100%;
+    background-color: #002147;
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    align-items: center;
+    color: white;
+}
+.conhead
+{
+    color: white;
+    margin-left: 10px;
+}
+.icon
+{
+    height: 60px;
+    width: 565px;
+    background-color: #002147;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.iconimage1{
+    height: 55px;
+    width: 55px;
+    background-image: url("podcast.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 3px;
+}
+
+.iconimage2{
+    height: 55px;
+    width: 55px;
+    background-image: url("youtube\ .png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 3px;
+}
+
+.iconimage3{
+    height: 55px;
+    width: 55px;
+    background-image: url("twiter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 3px;
+}
+
+
+.iconimage4{
+    height: 55px;
+    width: 55px;
+    background-image: url("facebook.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.iconimage5{
+    height: 55px;
+    width: 50px;
+    background-image: url("tiktok.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.iconimage6{
+    height: 55px;
+    width: 50px;
+    background-image: url("linkedin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.iconimage7{
+    height: 55px;
+    width: 55px;
+    background-image: url("blogs\ .png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 3px;
+}
+
+.iconimage8{
+    height: 55px;
+    width: 55px;
+    background-image: url("instagram.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 3px;
+}
+
+
+.iconimage9{
+    height: 55px;
+    width: 55px;
+    background-image: url("medium.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 3px;
+}
+
+.iconimage10{
+    height: 55px;
+    width: 55px;
+    background-image: url("messages.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 3px;
+}
+
+.iconimage1:hover{
+    background-color: white;
+}
+
+.iconimage2:hover{
+    background-color: white;
+}
+.iconimage3:hover{
+    background-color: white;
+}
+.iconimage4:hover{
+    background-color: white;
+}
+.iconimage5:hover{
+    background-color: white;
+}
+.iconimage6:hover{
+    background-color: white;
+}
+.iconimage7:hover{
+    background-color: white;
+}
+.iconimage8:hover{
+    background-color: white;
+}
+.iconimage9:hover{
+    background-color: white;
+}
+.iconimage10:hover{
+    background-color: white;
+}
+
+
+.footer
+{
+    height: 60px;
+    width: 100%;
+    background-color: #002147;
+    display: flex;
+}
+
+.footer_content
+{
+    height: 50px;
+    width: 250px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    margin-right: 0px;
+}
+
+.last
+{
+    margin-left: px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    width: 600px;
+}
+#alast{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
